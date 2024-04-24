@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-tutorial-estore/orders": ["libs/orders/src/index.ts"],
+      "@nx-tutorial-estore/products": ["libs/products/src/index.ts"],
+      "@nx-tutorial-estore/shared-ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
